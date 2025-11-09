@@ -32,6 +32,7 @@ main img {
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    border: 1px solid black;
 }
 
 aside {
