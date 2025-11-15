@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #024102; /*dark green*/
+    --secondary-color: #04d42a; /*lighter green*/
+    --accent1-color: #b17a01; /* dark Orange*/
+    --accent1-color2: #ffaf02; /* light Orange*/
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color)
+    color: var(var(--accent1-color2))
+}
