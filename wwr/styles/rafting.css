@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #055a05;
+    --primary-color: #000000;
     /*forest green*/
     --secondary-color: ##f4a261;
     /*warm sand*/
@@ -25,7 +25,8 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 header,
@@ -33,12 +34,14 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    background-color: rgb(255, 255, 255);
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
     color: rgb(180, 94, 9);
+    background-color: black;
 
 }
 
@@ -56,6 +59,7 @@ article {
 
 .hero {
     position: relative;
+
 }
 
 .hero img {
@@ -64,7 +68,7 @@ article {
     height: auto;
 }
 
-h1 {
+.lero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -76,18 +80,18 @@ h1 {
 
 }
 
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 1rem;
+}
+
 h2 {
     margin-bottom: 1rem;
     margin-top: 1rem;
     text-align: center;
     background-color: var(--accent1-color);
     color: #ffffff;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-    margin: 1rem;
 }
 
 .socialmedia img {
