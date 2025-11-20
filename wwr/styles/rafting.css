@@ -1,21 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --primary-color: #024102; /*dark green*/
-    --secondary-color: #04d42a; /*lighter green*/
-    --accent1-color: #b17a01; /* dark Orange*/
-    --accent1-color2: #ffaf02; /* light Orange*/
+    --primary-color: #055a05;
+    /*forest green*/
+    --secondary-color: ##f4a261;
+    /*warm sand*/
+    --accent1-color: #ff8400;
+    /* dark slate blue*/
+    --accent2-color: #e9c46a;
+    /* light golden yellow*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: var(--primary-color)
-    color: var(--accent1-color2);
-}
+    background-color: white;
+    color: var(--accent2-color);
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -23,24 +28,32 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
-    width: 840px
+header,
+main,
+footer {
+    width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: rgb(180, 94, 9);
+
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+nav,
+p,
+section,
+article {
+    margin: 9px;
+    padding: 10px;
 }
 
 .socialmedia a {
     text-decoration: none;
 }
+
 .hero {
     position: relative;
 }
@@ -54,10 +67,31 @@ nav, p, section, article {
 h1 {
     position: absolute;
     top: 20px;
-    width: 100%
-    padding: 16px
-     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent-color);
-    color: #fff
+    width: 100%;
+    padding: 11px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: rgb(206, 95, 4);
+    color: #ffffff;
+
+}
+
+h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 1rem;
+}
+
+.socialmedia img {
+    width: 24px;
+    height: 24px;
+    margin-top: -9px;
 }
