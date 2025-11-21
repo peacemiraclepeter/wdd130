@@ -1,15 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
-    --primary-color: #000000;
+    --primary-color: #055a05;
     /*forest green*/
     --secondary-color: ##f4a261;
     /*warm sand*/
-    --accent1-color: #ff8400;
+    --accent1-color: #264653;
     /* dark slate blue*/
     --accent2-color: #e9c46a;
     /* light golden yellow*/
@@ -17,31 +11,32 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: white;
-    color: var(--accent2-color);
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 body {
     font-family: var(--body-font);
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    line-height: 1.6;
 }
+
+
 
 header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: rgb(180, 94, 9);
-    background-color: black;
+    color: var(--primary-color);
 
 }
 
@@ -49,8 +44,8 @@ nav,
 p,
 section,
 article {
-    margin: 9px;
-    padding: 10px;
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
@@ -59,7 +54,6 @@ article {
 
 .hero {
     position: relative;
-
 }
 
 .hero img {
@@ -68,34 +62,48 @@ article {
     height: auto;
 }
 
-.lero h1 {
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 11px;
+    padding: 16px;
     text-align: center;
-    opacity: 0.8;
-    background-color: rgb(206, 95, 4);
-    color: #ffffff;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
 
 }
 
-.hero article img {
+article{
+    position: relative;
+
+}
+
+article img {
     float: right;
-    width: 125px;
-    margin: 1rem;
+    padding: 25px;
+
 }
 
 h2 {
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: -51px;
     text-align: center;
     background-color: var(--accent1-color);
     color: #ffffff;
 }
 
-.socialmedia img {
-    width: 24px;
-    height: 24px;
-    margin-top: -9px;
+footer {
+  text-align: left;
+  margin-top: -1rem;
+  border-top: 1px solid #000;
+
 }
+.socialmedia img {
+    width: 45px;
+    height: auto;
+    margin-top: -45px;
+}
+
+
+
