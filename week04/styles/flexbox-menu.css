@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color: #36454f;
+    background-color: #021f32;
 }
 
 nav ul {
@@ -29,7 +29,7 @@ p {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #bed;
+    background-color: rgb(159, 236, 245);
     max-width: 400px;
 }
 
