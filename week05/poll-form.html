@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WDD 130 | HTML Form – User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+
+    <h1>WDD 130 | HTML Form – User Poll</h1>
+
+    <form class="poll-form">
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <!-- FULL NAME -->
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+
+            <!-- EMAIL -->
+            <div class="form-item column2">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Questions</legend>
+
+            <!-- BROWSER -->
+            <div class="form-item column1">
+                <label for="browser">What is your favorite internet browser?</label>
+                <select id="browser" name="browser">
+                    <option>Chrome</option>
+                    <option>Firefox</option>
+                    <option>Edge</option>
+                    <option>Safari</option>
+                    <option>Opera-mini</option>
+                    <option>Google</option>
+                </select>
+            </div>
+
+            <!-- PET -->
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+
+            <!-- PLACES -->
+            <div class="form-item">
+                <label for="places">List the places you have lived:</label>
+                <textarea id="places" name="places" rows="4"
+                    placeholder="Ogbogoro, Rumuokwachi, Ozuoba, Rumuosi, Rumuola, Obirikwere" required></textarea>
+            </div>
+
+        </fieldset>
+
+        <button type="submit">Submit Poll</button>
+
+    </form>
+
+    </form>
+
+    <footer>
+        ©2025 | HTML Form – User Poll Activity | Miracle Peace Peter
+    </footer>
+
+</body>
+
+</html>
