@@ -48,29 +48,42 @@
                 <form>
 
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" required>
+                    <input type="text" id="name" name="name" required>
 
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" name="email" required>
 
                     <fieldset>
                         <legend>Purpose of Message</legend>
-                        <label><input type="radio" name="purpose" required> General Inquiry</label>
-                        <label><input type="radio" name="purpose"> Reservation Question</label>
-                        <label><input type="radio" name="purpose"> Website Suggestion</label>
+
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general" required>
+                            General Inquiry
+                        </label>
+
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+
+                        <label for="website">
+                            <input type="radio" id="website" name="purpose" value="website">
+                            Website Suggestion
+                        </label>
                     </fieldset>
 
                     <label for="message">Message</label>
-                    <textarea id="message" required></textarea>
+                    <textarea id="message" name="message" required></textarea>
 
-                    <label class="subscribe">
-                        <input type="checkbox">
+                    <label for="subscribe" class="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe">
                         Please subscribe me to the monthly newsletter
                     </label>
 
                     <button type="submit">Send Message</button>
 
                 </form>
+
             </div>
 
         </section>
