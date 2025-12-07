@@ -345,3 +345,123 @@ button:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* =============== HOME PAGE =============== */
+
+/* HERO */
+.home-hero {
+    position: relative;
+}
+.home-hero img {
+    width: 100%;
+    display: block;
+}
+.home-hero h1 {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.8rem;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 15px;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    background: var(--light-color);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.newsletter input {
+    width: 250px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.cta-btn {
+    text-decoration: none;
+    background: var(--primary-color);
+    padding: 4px 1.2rem;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.cta-btn:hover {
+    background: var(--secondary-color);
+}
+
+/* HOME GRID */
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.home-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+.home-grid h3 {
+    margin-top: .5rem;
+    color: var(--primary-color);
+}
+
+
+/* =============== TRIPS PAGE =============== */
+
+.trip-cta {
+    text-align: center;
+    padding: 2rem;
+}
+.trip-cta h1 {
+    color: var(--primary-color);
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.trip-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.trip-card h3 {
+    margin-top: .5rem;
+    color: var(--accent-color);
+}
+
+/* TRIPS TABLE */
+.trip-table {
+    margin: 2rem 0;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+table th {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+
